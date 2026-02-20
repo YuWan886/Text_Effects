@@ -2,14 +2,14 @@
     "pack": {
         "description": "§eText Effects\n§7by TheSalt_",
         "min_format": 69,
-        "max_format": 75
+        "max_format": 81
     },
     "overlays": {
         "entries": [
             {
-                "min_format": 69,
-                "max_format": 75,
-                "directory": "1_21_10"
+                "min_format": 76,
+                "max_format": 81,
+                "directory": "26_1"
             }
         ]
     }
