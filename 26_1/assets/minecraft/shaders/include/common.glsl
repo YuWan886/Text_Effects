@@ -28,6 +28,6 @@ void applyProjection(inout vec4 vertex) {
 }
 
 void applyColorTexture() {
-    vec4 texColor = minecraft_sample_lightmap(Sampler2, UV2);
+    vec4 texColor = sample_lightmap(Sampler2, UV2);
     vertexColor = Color * texColor;
 }

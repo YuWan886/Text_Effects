@@ -6,7 +6,7 @@ void applyEffect(inout vec4 vertex, int effectID, vec4 baseColor, bool isShadow,
         if (hasRainbow) { \
             applyHueColor(paramRainbowSpeed, vertex.x, vertex.y); \
         } else { \
-            vertexColor = displayColor * minecraft_sample_lightmap(Sampler2, UV2); \
+            vertexColor = displayColor * sample_lightmap(Sampler2, UV2); \
         }
 
     // --- Effect ID 1: Shake ---
